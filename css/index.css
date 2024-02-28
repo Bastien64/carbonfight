@@ -495,9 +495,9 @@ body {
    /* Div FullscreenTop */
     .divtop {
        width: 100%;
-       
+       height: 100vh;
 
-       background-image: url(../img/vague42.png);
+       background-image: url(../img/vaguemobile.png);
        background-repeat: no-repeat;
        background-size: 100%;
        display: flex;
@@ -510,9 +510,9 @@ body {
        width: 100%;
        height: 100%;
        display: flex;
-       flex-direction: column-reverse;
+       flex-direction: column;
        align-items: center;
-       justify-content: center;
+       margin-top: 15%;
     }
    
     .divtopleft {
@@ -521,7 +521,7 @@ body {
        display: flex;
        flex-direction: column;
        align-items: center;
-       font-size: 0px;
+       font-size: 15px;
        text-align: center;
 
        color: #ffffff!important;
@@ -530,7 +530,8 @@ body {
    
 
     .divtopleft >h2 {
-      font-size: 0px;
+      font-size: 30px;
+      font-weight: bold!important;
 
 
    
@@ -541,7 +542,7 @@ body {
     }
    
     .divtoptelephone {
-       width: 250px;
+       width: 350px;
 
     }
    
@@ -554,7 +555,7 @@ body {
        flex-direction: column;
        align-items: center;
        justify-content: space-between;
-       padding: 0 5%;
+
        font-weight: 700;
    
     }
