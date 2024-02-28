@@ -1,4 +1,5 @@
 @media only screen and (min-width: 767px){
+ /*EFFET cote de la PAGE */
 #btnScrollToTop {
     display: none;
     position: fixed;
@@ -10,7 +11,7 @@
     cursor: pointer;
     padding: 10px;
     font-weight: bold;
-    background-color: #ffffff;
+    background-color: #ffffff00;
     transform-origin: bottom right; /* Définir l'origine de la transformation */
     transform: rotate(-90deg) translateX(100%); /* Rotation et translation */
     white-space: nowrap; /* Empêcher le texte de passer à la ligne */
@@ -37,6 +38,18 @@
   height: 25px;
   width: auto;
  }
+ /*FIN EFFET cote de la PAGE */
+
+ @keyframes zoomIn {
+     0% { transform: scale(0.1); opacity: 0; }
+     100% { transform: scale(1); opacity: 1; }
+ }
+
+ .divcarbonfighttelephone.zoomIn {
+     animation: zoomIn 3s ease forwards;
+ }
+
+
 }
  @media only screen and (max-width: 766px){
     #btnScrollToTop {
@@ -62,4 +75,15 @@
        height: 0px;
        width: auto;
       }
+
+       /*FIN EFFET cote de la PAGE */
+       /*ZOOM IN */
+ @keyframes zoomIn {
+    0% { transform: scale(0.1); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.divcarbonfighttelephone.zoomIn {
+    animation: zoomIn 3s ease forwards;
+}
 }
