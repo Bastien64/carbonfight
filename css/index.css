@@ -332,7 +332,7 @@ body {
    }
 
    form {
-      width: 50%;
+      width: 65%;
       height: auto;
       display: flex;
       flex-direction: column;
