@@ -79,7 +79,7 @@ body {
  }
 
  .divtoptelephone {
-    width: 95%;
+    width: 300px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -279,21 +279,24 @@ body {
       display: flex;
       flex-direction: row;
       align-items: center;
-      justify-content: space-between;
+      justify-content: space-around;
    }
 
    .seconddivleft {
       height: auto;
+      width: 35%;
       display: flex;
       flex-direction: row;
       align-items: center;
+
    }
 
    .divcarbonfighttelephone {
-      width: 450px;
+      width: 250px;
    }
 
    .seconddivright {
+      width: 35%;
       height: auto;
       display: flex;
       flex-direction: row-reverse;
@@ -547,7 +550,8 @@ body {
     }
    
     .divtoptelephone {
-       width: 350px;
+       width: 200px;
+       margin-top: 5%;
 
     }
    
@@ -747,7 +751,7 @@ body {
          display: flex;
          flex-direction: column;
          align-items: center;
-         justify-content: space-between;
+
       }
    
       .seconddivleft {
@@ -758,7 +762,8 @@ body {
       }
    
       .divcarbonfighttelephone {
-         width: 450px;
+         width: 200px;
+         margin-bottom: 5%;
       }
    
       .seconddivright {
