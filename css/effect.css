@@ -42,4 +42,24 @@
     #btnScrollToTop {
         display: none; /* Masquer le bouton sur les écrans mobiles */
     }
+    .appstore2:hover {
+        height: 0px;
+        width: auto;
+        transition: 1s;
+     }
+     
+     .appstore2 {
+      height: 0px;
+      width: auto;
+     }
+     .appstore21:hover {
+         height: 0px;
+         width: auto;
+         transition: 1s;
+      }
+      
+      .appstore21 {
+       height: 0px;
+       width: auto;
+      }
 }
