@@ -33,3 +33,10 @@ function scrollToTop() {
     // Cible l'image et commence à observer
     const image = document.getElementById('carbonImage');
     observer.observe(image);
+
+
+    //FOOTER EFFET
+    document.getElementById("toggleButton").addEventListener("click", function() {
+        var divElement = document.querySelector(".divfooterbottom div");
+        divElement.classList.toggle("visible"); // Toggle entre ajouter ou supprimer la classe visible
+    });
