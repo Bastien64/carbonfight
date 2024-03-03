@@ -472,10 +472,15 @@
    .footera {
       text-decoration: none !important;
       color: #ffffff !important;
-      margin-left: 10px;
+      margin-left: 20px;
       text-decoration: underline !important;
    }
 
+   .footerb {
+      text-decoration: none !important;
+      color: #ffffff !important;
+      text-decoration: underline !important;
+   }
    .divfooterbottom {
       width: 100%;
       margin-top: 1%;
@@ -966,6 +971,11 @@
       width: 100px;
    }
 
+   .footerb {
+      text-decoration: none !important;
+      color: #ffffff !important;
+      text-decoration: underline !important;
+   }
    .footera {
       text-decoration: none !important;
       color: #ffffff !important;
