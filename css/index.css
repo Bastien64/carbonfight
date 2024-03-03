@@ -348,6 +348,7 @@
       flex-direction: row-reverse;
       align-items: center;
       justify-content: center;
+      text-align: end;
    }
 
     .taillemid {
@@ -388,6 +389,7 @@
       flex-direction: row-reverse;
       align-items: center;
       justify-content: center;
+      text-align: end;
    }
 
    .titredivcarbonfight {
