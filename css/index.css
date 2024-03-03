@@ -13,7 +13,7 @@ body {
 
 .mainframe {
     width: 90vw;
-    margin-top:1% ;
+     ;
     font-family: "Poppins", sans-serif; ;
 }
 .footera {
@@ -26,7 +26,7 @@ body {
  .divtop {
     width: 100%;
     height: 100vh;
-    background-image: url(../img/vague42.png);
+    background-image: url(../img/testfinalsombre3.png);
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
@@ -57,7 +57,13 @@ body {
 
  }
 
- .divtopleft > h2 {
+/*  .divtoplefttext {
+      width: 100%;
+      height: auto;
+      background-color:rgba(24, 46, 8, 0.288);
+      margin-top: 5%;
+  } */
+ .divtoplefttext> h2 {
     font-size: 2em;
     font-weight: bold!important;
  }
@@ -196,18 +202,21 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     padding-top: 3%;
     color: #ffffff;
  }
 
  .divengagementiconetexte > img {
-    width: 175px;
+    width: 120px;
+
  }
 
  .trait {
+   margin-right: 5%;
+   margin-left: 5%;
     width: 2px;
-    height: 150px;
+    height: 120px;
     background-color: #ffffff;
  }
 
@@ -216,12 +225,12 @@ body {
  }
 
  .titreengagement {
-    font-size: 35px;
+    font-size: 20px;
     font-weight: bold;
  }
 
   .textengagement {
-    font-size: 25px;
+    font-size: 16px;
   }
 
    /* Div Carbonfight avec ecran */
@@ -270,6 +279,7 @@ body {
       align-items: center;
       justify-content: center;
    }
+   
 
    .seconddiv {
       width: 100%;
@@ -427,56 +437,42 @@ body {
 
   /* Div Footer */
   /* footer */
-  .footer {
+  footer {
    width: 100%;
-   padding: 2% 2% 2% 2%;
+   padding: 2% 2% 0% 2%;
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
    margin-top: 2%;
    color: white;
    background-color:rgba(24, 46, 8, 1);
    justify-content: space-around;
-}
-
-.reseaux {
-   display: flex;
-   flex-direction: column;
    align-items: center;
+   text-align: center;
+   font-size: 15px;
 }
+ .footerlogo {
+   width: 150px;
+ }
+ .footera{
+   text-decoration: none!important;
+   color: #ffffff !important;
+margin-left: 10px;
+text-decoration: underline!important;}
+ .divfooterbottom {
+   width: 100%;
 
-.logo {
-   margin: 5%;
-   max-width: 50px;
-   max-height: 50px;
-}
+   margin-top: 1%;
+ }
 
-.infolegale {
-   width: 55%;
+  .Legal {
+   width: 100%;
    display: flex;
-   align-items: flex-end;
+   flex-direction: row;
    justify-content: center;
    text-align: center;
-}
-
-.infolegale p {
-   font-size: small;
-   margin-left: 2%;
-}
-
-.trait {
-   width: 2px;
-   height: 150px;
-   background-color: white;
-}
-
-.contact {
-   width: 15%; text-align: center;
-}
-
-.contact2 {
-   width: 15%;
-}
-
+   
+   margin-top: 1%;
+  }
 }
 
 
@@ -491,8 +487,8 @@ body {
    }
    
    .mainframe {
-       width: 95vw;
-       margin-top:1% ;
+       width: 100vw;
+
        font-family: "Poppins", sans-serif; ;
    }
    .footera {
@@ -506,7 +502,7 @@ body {
        width: 100%;
        height: 100vh;
 
-       background-image: url(../img/vaguemobile.png);
+       background-image: url(../img/vaguemobilesombre1.png);
        background-repeat: no-repeat;
        background-size: 100%;
        display: flex;
@@ -536,15 +532,19 @@ body {
        color: #ffffff!important;
    
     }
-   
+   /*
+    .divtoplefttext {
+      width: 100%;
+      height: auto;
+      background-color:rgba(24, 46, 8, 0.199);
 
-    .divtopleft >h2 {
-      font-size: 30px;
-      font-weight: bold!important;
+  }
+  */
+ .divtoplefttext> h2 {
+    font-size: 30px;
+    font-weight: bold!important;
+ }
 
-
-   
-    }
    
     .appstore {
        width: 250px;
@@ -703,8 +703,7 @@ body {
        margin-top: 5%;
        padding-left: 5%; 
        height: auto;
-       border-left: 5px solid rgba(24, 46, 8, 1); 
-       border-bottom:  5px solid rgba(24, 46, 8, 1);  
+
    
       }
    
@@ -899,55 +898,40 @@ body {
    
      /* Div Footer */
      /* footer */
-     .footer {
-      padding: 2% 2% 2% 2%;
+     footer {
+      width: 100%;
+      padding: 2% 2% 0% 2%;
       display: flex;
       flex-direction: column;
       margin-top: 2%;
       color: white;
       background-color:rgba(24, 46, 8, 1);
-      justify-content: center;
+      justify-content: space-around;
       align-items: center;
+      text-align: center;
+      font-size: 10px;
    }
-   
-   .reseaux {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+   .footerlogo {
+      width: 100px;
    }
+    .footera{
+      text-decoration: none!important;
+      color: #ffffff !important;
+   margin-left: 10px;
+   text-decoration: underline!important;}
+    .divfooterbottom {
+      width: 100%;
    
-   .logo {
-      margin: 5%;
-      max-width: 50px;
-      max-height: 50px;
-   }
+      margin-top: 2%;
+    }
    
-   .infolegale {
+     .Legal {
       width: 100%;
       display: flex;
-      align-items: flex-end;
+      flex-direction: row;
       justify-content: center;
       text-align: center;
-   }
-   
-   .infolegale p {
-      font-size: small;
-      margin-left: 2%;
-   }
-   
-   .trait {
-      width: 2px;
-      height: 150px;
-      background-color: white;
-   }
-   
-   .contact {
-      width: 100%; text-align: center;
-   }
-   h5 {
-      text-align: center;
-   }
-   .contact2 {
-      width: 100%;text-align: start
-   }   
+      
+      margin-top: 2%;
+     }
    }
