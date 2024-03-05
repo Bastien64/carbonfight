@@ -635,7 +635,7 @@ text-align: center;
 
    /* Div FullscreenTop */
    .divtop {
-      width: 100%;
+      width: 100vw;
       height: 100vh;
 
       background-image: url(../img/vaguemobilesombre1.jpg);
