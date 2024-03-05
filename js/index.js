@@ -1,1 +1,62 @@
-function scrollFunction() { document.body.scrollTop > 20 || document.documentElement.scrollTop > 20 ? document.getElementById("btnScrollToTop").style.display = "block" : document.getElementById("btnScrollToTop").style.display = "none" } function scrollToTop() { document.body.scrollTop = 0, document.documentElement.scrollTop = 0 } function animateOnScroll(e, o) { e.forEach((e => { e.isIntersecting && (e.target.classList.add("zoomIn"), o.unobserve(e.target)) })) } window.onscroll = function () { scrollFunction() }; const observer = new IntersectionObserver(animateOnScroll, { root: null, threshold: .5 }), image = document.getElementById("carbonImage"); observer.observe(image), document.getElementById("toggleButton").addEventListener("click", (function () { document.querySelector(".divfooterbottom div").classList.toggle("visible") })), window.axeptioSettings = { clientId: "65e4b1b9c065d174cb3f24f4", cookiesVersion: "carbonfight landing-fr-EU" }, function (e, o) { var t = e.getElementsByTagName(o)[0], n = e.createElement(o); n.async = !0, n.src = "//static.axept.io/sdk.js", t.parentNode.insertBefore(n, t) }(document, "script");
+
+window.addEventListener('load', function() {
+    setTimeout(function() {
+        document.getElementById('phoneImage').style.visibility = 'visible';
+    }, 1000); // Délai d'une seconde (1000 millisecondes)
+});
+
+
+
+window.addEventListener('load', function() {
+    setTimeout(function() {
+        document.getElementById('phoneImage2').style.visibility = 'visible';
+    }, 1000); // Délai d'une seconde (1000 millisecondes)
+});
+
+
+window.addEventListener('load', function() {
+    setTimeout(function() {
+        document.getElementById('phoneImage3').style.visibility = 'visible';
+    }, 1000); // Délai d'une seconde (1000 millisecondes)
+});
+
+
+
+
+//EFFET ZOOM IMAGE
+       // Fonction pour activer l'animation lorsque l'élément est visible dans la vue
+       function animateOnScroll(entries, observer) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('zoomIn');
+                observer.unobserve(entry.target); // Arrête d'observer une fois que l'élément est visible
+            }
+        });
+    }
+
+    // Crée un observateur pour surveiller l'image
+    const observer = new IntersectionObserver(animateOnScroll, { root: null, threshold: 0.5 });
+
+    // Cible l'image et commence à observer
+    const image = document.getElementById('carbonImage');
+    observer.observe(image);
+
+
+    //FOOTER EFFET
+    document.getElementById("toggleButton").addEventListener("click", function() {
+        var divElement = document.querySelector(".divfooterbottom div");
+        divElement.classList.toggle("visible"); // Toggle entre ajouter ou supprimer la classe visible
+    });
+
+  
+
+    window.axeptioSettings = {
+        clientId: "65e4b1b9c065d174cb3f24f4",
+        cookiesVersion: "carbonfight landing-fr-EU",
+      };
+       
+      (function(d, s) {
+        var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
+        e.async = true; e.src = "//static.axept.io/sdk.js";
+        t.parentNode.insertBefore(e, t);
+      })(document, "script");

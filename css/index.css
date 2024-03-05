@@ -694,11 +694,13 @@ text-align: center;
    .divtoptelephone {
       width: 200px;
       margin-top: 5%;
+      visibility: hidden;
 
    }
  /*MECEN*/ 
 
  .maindivmecen {
+   visibility: hidden;
    width: 100%;
    height: auto;
    display: flex;
@@ -826,6 +828,7 @@ text-align: center;
    /* Div Engagement + Icone */
 
    .divengagement {
+      visibility: hidden;
       width: 100%;
       height: auto;
       padding-top: 0.5%;
