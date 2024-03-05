@@ -1,5 +1,14 @@
+window.addEventListener('scroll', function() {
+    var threshold = window.innerHeight / 2; // Seuil de défilement, ajustez selon vos besoins
+    var elementsToShow = document.querySelectorAll('.hidden');
 
-
+    elementsToShow.forEach(function(element) {
+        var elementPosition = element.getBoundingClientRect().top;
+        if (elementPosition < threshold) {
+            element.classList.remove('hidden');
+        }
+    });
+});
 //EFFET ZOOM IMAGE
        // Fonction pour activer l'animation lorsque l'élément est visible dans la vue
        function animateOnScroll(entries, observer) {
