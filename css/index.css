@@ -31,7 +31,7 @@
    .divtop {
       width: 100%;
       height: 100vh;
-      background-image: url(../img/testfinalsombre3.jpg);
+      background-image: url(../img/testfinalsombre3.png);
       background-repeat: no-repeat;
       background-size: 100%;
       display: flex;
@@ -148,7 +148,12 @@ text-align: center;
   }
 
 
-
+   /*  .divtoplefttext {
+      width: 100%;
+      height: auto;
+      background-color:rgba(24, 46, 8, 0.288);
+      margin-top: 5%;
+  } */
    .divtoplefttext>h2 {
       font-size: 2em;
       font-weight: bold !important;
@@ -635,10 +640,10 @@ text-align: center;
 
    /* Div FullscreenTop */
    .divtop {
-      width: 100vw;
+      width: 100%;
       height: 100vh;
 
-      background-image: url(../img/vaguemobilesombre1.jpg);
+      background-image: url(../img/vaguemobilesombre1.png);
       background-repeat: no-repeat;
       background-size: 100%;
       display: flex;
@@ -694,13 +699,11 @@ text-align: center;
    .divtoptelephone {
       width: 200px;
       margin-top: 5%;
-      visibility: hidden;
 
    }
  /*MECEN*/ 
 
  .maindivmecen {
-   visibility: hidden;
    width: 100%;
    height: auto;
    display: flex;
@@ -828,7 +831,6 @@ text-align: center;
    /* Div Engagement + Icone */
 
    .divengagement {
-      visibility: hidden;
       width: 100%;
       height: auto;
       padding-top: 0.5%;

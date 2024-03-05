@@ -1,27 +1,4 @@
 
-window.addEventListener('load', function() {
-    setTimeout(function() {
-        document.getElementById('phoneImage').style.visibility = 'visible';
-    }, 1000); // Délai d'une seconde (1000 millisecondes)
-});
-
-
-
-window.addEventListener('load', function() {
-    setTimeout(function() {
-        document.getElementById('phoneImage2').style.visibility = 'visible';
-    }, 1000); // Délai d'une seconde (1000 millisecondes)
-});
-
-
-window.addEventListener('load', function() {
-    setTimeout(function() {
-        document.getElementById('phoneImage3').style.visibility = 'visible';
-    }, 1000); // Délai d'une seconde (1000 millisecondes)
-});
-
-
-
 
 //EFFET ZOOM IMAGE
        // Fonction pour activer l'animation lorsque l'élément est visible dans la vue

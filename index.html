@@ -13,23 +13,24 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <title>CarbonFight | Mesurez au jour le jour votre empreinte carbone</title>
-
-<script defer>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-KQHZXM8T');</script>
-
+    <!-- End Google Tag Manager -->
 </head>
 
 <body>
-
+    <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQHZXM8T"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
 
     <div class="mainframe">
         <!-- Div FullscreenTop -->
-        <div class="divtop">
+        <div class="divtop" id="telecharger">
             <div class="divtopcontent">
                 <div class="divtopleft">
                     <div class="divtoplefttext">
@@ -44,21 +45,21 @@
                             class="appstore" loading="lazy"></a>
                 </div>
                 <div class="divtopright">
-                    <img src="img/telephone2mobile.png" alt="Un téléphone avec CarbonFight"  id="phoneImage" class="divtoptelephone" loading="lazy" style="">
+                    <img src="img/telephone2mobile.png" alt="Un téléphone avec CarbonFight" class="divtoptelephone" loading="lazy">
                 </div>
             </div>
 
         </div>
         <!-- Div Mecen-->
 
-        <div class="maindivmecen" id="phoneImage2">
+        <div class="maindivmecen">
             <h2>Ils nous soutiennent !</h2>
             <p><a href="https://carbonfight.app/equipe" target="_blank" rel="noopener noreferrer">Rejoignez le projet sur <span>notre plateforme collaborative</span></a></p>
 
             <div class="mainmecen">
                 <div class="mecen">
                     <a href="https://www.vendredi.cc/" target="_blank" rel="noopener noreferrer" class="nav-link">
-                        <div class="imagemecen"><img  loading="lazy" src="img/vendredi.png" alt="Logo de Vendredi" class="logomecen">
+                        <div class="imagemecen"><img src="img/vendredi.png" alt="Logo de Vendredi" class="logomecen">
                         </div>
                         <h3>Vendredi</h3>
                         <p>Mécénat</p>
@@ -66,16 +67,16 @@
                 </div>
                 <div class="mecen">
                     <a href="https://dataforgood.fr/" target="_blank" rel="noopener noreferrer" class="nav-link">
-                        <div class="imagemecen"><img  loading="lazy" src="img/dataforgood.png" alt="Logo de dataforgood"
-                                class="logomecen"></div>
+                        <div class="imagemecen"><img src="img/dataforgood.png" alt="Logo de dataforgood"
+                                class="logomecen" loading="lazy"></div>
                         <h3>Data for Good</h3>
                         <p>Saison 11</p>
                     </a>
                 </div>
                 <div class="mecen">
                     <a href="https://kolabee.com/" target="_blank" rel="noopener noreferrer" class="nav-link">
-                        <div class="imagemecen"><img  loading="lazy" src="img/Kolabee-Logos-Doodle-Gris.png"
-                                alt="Logo de Kolabee-Logos-Doodle-Gris" class="logomecen"></div>
+                        <div class="imagemecen"><img src="img/Kolabee-Logos-Doodle-Gris.png"
+                                alt="Logo de Kolabee-Logos-Doodle-Gris" class="logomecen" loading="lazy"></div>
                         <h3>Kolabe</h3>
                         <p>Mécénat</p>
                     </a>
@@ -86,7 +87,7 @@
         </div>
 
         <!-- Div NavBar + Texte -->
-        <div class="divnavbar" >
+        <div class="divnavbar">
             <nav class="navbar navbar-expand-lg ">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -120,10 +121,10 @@
 
         <!-- Div Engagement + Icone -->
 
-        <div class="divengagement" id="phoneImage3">
+        <div class="divengagement" id="engagement">
             <h2>NOS ENGAGEMENTS</h2>
             <div class="divengagementiconetexte">
-                <img src="icon/bloc-dannonces.png" loading="lazy" alt="Pas de publicité chez CarbonFight">
+                <img src="icon/bloc-dannonces.png" alt="Pas de publicité chez CarbonFight" loading="lazy">
                 <div class="trait"></div>
                 <div class="divengagmenttexte">
                     <h3 class="titreengagement">SANS PUBLICITÉ</h3>
@@ -133,7 +134,7 @@
                 </div>
             </div>
             <div class="divengagementiconetexte">
-                <img src="icon/carte-de-credit.png" loading="lazy" alt="Pas d'achat chez CarbonFight">
+                <img src="icon/carte-de-credit.png" alt="Pas d'achat chez CarbonFight" loading="lazy">
                 <div class="trait"></div>
                 <div class="divengagmenttexte">
                     <h3 class="titreengagement">SANS ACHAT</h3>
@@ -143,7 +144,7 @@
                 </div>
             </div>
             <div class="divengagementiconetexte">
-                <img src="icon/base-de-donnees.png" loading="lazy" alt="Pas de donnée privée CarbonFight">
+                <img src="icon/base-de-donnees.png" alt="Pas de donnée privée CarbonFight" loading="lazy">
                 <div class="trait"></div>
                 <div class="divengagmenttexte">
                     <h3 class="titreengagement">DONNEES PROTÉGÉES</h3>
@@ -153,7 +154,7 @@
                 </div>
             </div>
             <div class="divengagementiconetexte">
-                <img src="icon/open-source.png"  loading="lazy" alt="Une application opensource CarbonFight">
+                <img src="icon/open-source.png" alt="Une application opensource CarbonFight" loading="lazy">
                 <div class="trait"></div>
                 <div class="divengagmenttexte">
                     <h3 class="titreengagement">OPEN SOURCE</h3>
@@ -172,7 +173,7 @@
             <h2>LE PROJET</h2>
             <div class="firstdiv">
                 <div class="firstdivrleft">
-                    <img src="img/heart-handshake.svg"  loading="lazy" alt="Associatif Carbonfight" class="logodivcarbon">
+                    <img src="img/heart-handshake.svg" alt="Associatif Carbonfight" class="logodivcarbon" loading="lazy">
                     <div>
                         <h3 class="titredivcarbonfight">ASSOCIATIF</h3>
                         <p>
@@ -183,7 +184,7 @@
                 </div>
                 <div class="taillemid"></div>
                 <div class="firstdivright">
-                    <img src="img/target-arrow.svg"  loading="lazy" alt="Carbonfight a des objectifs " class="logodivcarbon">
+                    <img src="img/target-arrow.svg" alt="Carbonfight a des objectifs " class="logodivcarbon" loading="lazy">
                     <div>
                         <h3 class="titredivcarbonfight">OBJECTIF</h3>
                         <p>
@@ -196,7 +197,7 @@
             </div>
             <div class="seconddiv">
                 <div class="seconddivleft">
-                    <img src="img/users.svg"  loading="lazy" alt="CarbonFight est participatif" class="logodivcarbon">
+                    <img src="img/users.svg" alt="CarbonFight est participatif" class="logodivcarbon" loading="lazy">
                     <div>
                         <h3 class="titredivcarbonfight">PARTICIPATIF</h3>
                         <p>
@@ -205,10 +206,10 @@
                         </p>
                     </div>
                 </div>
-                <img src="img/telephone22.jpg" loading="lazy" alt="CarbonFight sur un téléphone" id="carbonImage"
-                    class="divcarbonfighttelephone hidden">
+                <img src="img/telephone22.jpg" alt="CarbonFight sur un téléphone" id="carbonImage"
+                    class="divcarbonfighttelephone hidden" loading="lazy">
                 <div class="seconddivright">
-                    <img src="img/device-gamepad.svg" loading="lazy" alt="CarbonFight est un jeu " class="logodivcarbon">
+                    <img src="img/device-gamepad.svg" alt="CarbonFight est un jeu " class="logodivcarbon" loading="lazy">
                     <div>
                         <h3 class="titredivcarbonfight">PLUS D’UNE APPLI, UN JEU</h3>
                         <p>
@@ -221,7 +222,7 @@
             </div>
             <div class="firstdiv">
                 <div class="firstdivrleft">
-                    <img src="img/lock-access.svg" loading="lazy" alt="Associatif Carbonfight" class="logodivcarbon">
+                    <img src="img/lock-access.svg" alt="Associatif Carbonfight" class="logodivcarbon" loading="lazy">
                     <div>
                         <h3 class="titredivcarbonfight">DONNEES PROTEGEES</h3>
                         <p>
@@ -233,7 +234,7 @@
                 </div>
                 <div class="taillemid"></div>
                 <div class="firstdivright">
-                    <img src="img/graph.svg"  loading="lazy" alt="Carbonfight a des objectifs " class="logodivcarbon">
+                    <img src="img/graph.svg" alt="Carbonfight a des objectifs " class="logodivcarbon" loading="lazy">
                     <div>
                         <h3 class="titredivcarbonfight">MESUREZ, AGISSEZ</h3>
                         <p>
@@ -249,7 +250,7 @@
         <footer>
             <div class="divfooter">
                 <div class="divfooterleft">
-                    <img src="img/logo.svg"  loading="lazy" alt="Logo de carbonFight" class="footerlogo">
+                    <img src="img/logo.svg" alt="Logo de carbonFight" class="footerlogo" loading="lazy">
                     <p>CarbonFight est une application mobile qui vous permet de mesurer et réduire votre empreinte
                         carbone.</p>
                 </div>
@@ -279,10 +280,10 @@
 
     </div>
 
-    <script src="js/index.js" defer></script>
+    <script src="js/index.js"></script>
 
-    <script  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous" defer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
         </script>
 </body>
 
