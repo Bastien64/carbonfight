@@ -35,7 +35,7 @@ window.addEventListener('scroll', function() {
     });
 
   
-
+/*
     window.axeptioSettings = {
         clientId: "65e4b1b9c065d174cb3f24f4",
         cookiesVersion: "carbonfight landing-fr-EU",
@@ -45,4 +45,4 @@ window.addEventListener('scroll', function() {
         var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
         e.async = true; e.src = "//static.axept.io/sdk.js";
         t.parentNode.insertBefore(e, t);
-      })(document, "script");
+      })(document, "script"); */
